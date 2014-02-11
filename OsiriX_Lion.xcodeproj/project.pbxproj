@@ -623,7 +623,6 @@
 		848327AB15ED08F4003BAEEB /* CustomIntervalPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848327A915ED08F3003BAEEB /* CustomIntervalPanel.xib */; };
 		848327AC15ED08F4003BAEEB /* CustomIntervalPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848327A915ED08F3003BAEEB /* CustomIntervalPanel.xib */; };
 		8483ABA60E1BE33900C21B31 /* crossCursor.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8483ABA50E1BE33900C21B31 /* crossCursor.tif */; };
-		848631C30FE77E1F00B96E99 /* jpeg_memdest.h in Headers */ = {isa = PBXBuildFile; fileRef = 848631C10FE77E1F00B96E99 /* jpeg_memdest.h */; };
 		848A6BEB14C5BBA700C936C3 /* Tiling1x1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 848A6BE714C5BBA700C936C3 /* Tiling1x1.pdf */; };
 		848A6BEC14C5BBA700C936C3 /* Tiling1x1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 848A6BE714C5BBA700C936C3 /* Tiling1x1.pdf */; };
 		848A6BED14C5BBA700C936C3 /* Tiling1x2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 848A6BE814C5BBA700C936C3 /* Tiling1x2.pdf */; };
@@ -638,7 +637,6 @@
 		849B44BE1552B2D800194728 /* OsiriXNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B44BA1552B2D800194728 /* OsiriXNotificationCenter.m */; };
 		84A220E80F25E41800C6C3EB /* ROIs.tif in Resources */ = {isa = PBXBuildFile; fileRef = 84A220E60F25E41800C6C3EB /* ROIs.tif */; };
 		84A220E90F25E41800C6C3EB /* Keys.tif in Resources */ = {isa = PBXBuildFile; fileRef = 84A220E70F25E41800C6C3EB /* Keys.tif */; };
-		84A6790E0EEED04000AE5C98 /* jpeg_memsrc.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A6790D0EEED04000AE5C98 /* jpeg_memsrc.h */; };
 		84A9D48C12F7F8EA00DA1F99 /* libkdu_v73R.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9D48B12F7F8EA00DA1F99 /* libkdu_v73R.a */; };
 		84A9D48D12F7F8EB00DA1F99 /* libkdu_v73R.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9D48B12F7F8EA00DA1F99 /* libkdu_v73R.a */; };
 		84A9D48E12F7F8EB00DA1F99 /* libkdu_v73R.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9D48B12F7F8EA00DA1F99 /* libkdu_v73R.a */; };
@@ -685,6 +683,25 @@
 		84E1924713699BBB008DCFC8 /* WADODownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E191F91369966A008DCFC8 /* WADODownload.h */; };
 		84E1924813699BBB008DCFC8 /* WADODownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E191FA1369966A008DCFC8 /* WADODownload.m */; };
 		84F453570FC3DF5400D29666 /* ILCrashReporter.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = ABE881440FC1444D009F5C80 /* ILCrashReporter.framework */; };
+		9333113A18A87F3B002673A3 /* PapyEalloc3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333112918A87F3B002673A3 /* PapyEalloc3.h */; };
+		9333113B18A87F3B002673A3 /* PapyEnumGroups3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333112A18A87F3B002673A3 /* PapyEnumGroups3.h */; };
+		9333113C18A87F3B002673A3 /* PapyEnumImageGroups3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333112B18A87F3B002673A3 /* PapyEnumImageGroups3.h */; };
+		9333113D18A87F3B002673A3 /* PapyEnumImagesModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333112C18A87F3B002673A3 /* PapyEnumImagesModules3.h */; };
+		9333113E18A87F3B002673A3 /* PapyEnumMiscGroups3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333112D18A87F3B002673A3 /* PapyEnumMiscGroups3.h */; };
+		9333113F18A87F3B002673A3 /* PapyEnumMiscModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333112E18A87F3B002673A3 /* PapyEnumMiscModules3.h */; };
+		9333114018A87F3B002673A3 /* PapyEnumModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333112F18A87F3B002673A3 /* PapyEnumModules3.h */; };
+		9333114118A87F3B002673A3 /* PapyError3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333113018A87F3B002673A3 /* PapyError3.h */; };
+		9333114218A87F3B002673A3 /* PapyErrorMacros3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333113118A87F3B002673A3 /* PapyErrorMacros3.h */; };
+		9333114318A87F3B002673A3 /* PapyFileSystem3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333113218A87F3B002673A3 /* PapyFileSystem3.h */; };
+		9333114418A87F3B002673A3 /* PapyGlobalVar3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333113318A87F3B002673A3 /* PapyGlobalVar3.h */; };
+		9333114518A87F3B002673A3 /* PapyInitModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333113418A87F3B002673A3 /* PapyInitModules3.h */; };
+		9333114618A87F3B002673A3 /* PapyMemSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333113518A87F3B002673A3 /* PapyMemSystem.h */; };
+		9333114818A87F3B002673A3 /* PapyPubFunctionDef3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333113718A87F3B002673A3 /* PapyPubFunctionDef3.h */; };
+		9333114918A87F3B002673A3 /* PapyTypeDef3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333113818A87F3B002673A3 /* PapyTypeDef3.h */; };
+		9333114A18A87F3B002673A3 /* PapyWild3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9333113918A87F3B002673A3 /* PapyWild3.h */; };
+		9333114B18A8826A002673A3 /* libPapyrus3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9333112618A87D54002673A3 /* libPapyrus3.a */; };
+		938147E118A9B9290098D659 /* Papyrus3.h in Headers */ = {isa = PBXBuildFile; fileRef = 938147E018A9B9290098D659 /* Papyrus3.h */; };
+		938147E418A9C4690098D659 /* libPapyrus3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9333112618A87D54002673A3 /* libPapyrus3.a */; };
 		A0344496143DE4AA003E1AFA /* DCMUSRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = A085E104141E53210072BF0D /* DCMUSRegion.m */; };
 		A0344498143DE4AB003E1AFA /* DCMUSRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = A085E104141E53210072BF0D /* DCMUSRegion.m */; };
 		A90202BE0B980CD60001A00B /* PluginManagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = A90202BA0B980CD60001A00B /* PluginManagerController.h */; };
@@ -1207,7 +1224,6 @@
 		A96F78A916DBBFC1000E877A /* ofstring.cc in Sources */ = {isa = PBXBuildFile; fileRef = BFBF3E6509B6828B00545F5E /* ofstring.cc */; };
 		A96F78AA16DBBFC1000E877A /* ofthread.cc in Sources */ = {isa = PBXBuildFile; fileRef = BFBF3E6709B6828B00545F5E /* ofthread.cc */; };
 		A96F78AB16DBBFC1000E877A /* oftime.cc in Sources */ = {isa = PBXBuildFile; fileRef = BFBF3E6909B6828B00545F5E /* oftime.cc */; };
-		A96F78AC16DBBFC1000E877A /* PapyVars3.c in Sources */ = {isa = PBXBuildFile; fileRef = CEED77D7123038F300258D00 /* PapyVars3.c */; };
 		A96F78AD16DBBFC1000E877A /* altivecFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = A98FFBE30CA92B58000291C8 /* altivecFunctions.c */; };
 		A96F78AE16DBBFC1000E877A /* nifti1_io.c in Sources */ = {isa = PBXBuildFile; fileRef = AB87FA760C06BEB200CD2976 /* nifti1_io.c */; };
 		A96F78AF16DBBFC1000E877A /* znzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = AB87FA780C06BEB200CD2976 /* znzlib.c */; };
@@ -3093,24 +3109,6 @@
 		AB87FA7C0C06BEB200CD2976 /* nifti1_io.h in Headers */ = {isa = PBXBuildFile; fileRef = AB87FA770C06BEB200CD2976 /* nifti1_io.h */; };
 		AB87FA7D0C06BEB200CD2976 /* znzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = AB87FA780C06BEB200CD2976 /* znzlib.c */; };
 		AB87FA7E0C06BEB200CD2976 /* znzlib.h in Headers */ = {isa = PBXBuildFile; fileRef = AB87FA790C06BEB200CD2976 /* znzlib.h */; };
-		AB8CC225067E4147008D5ED7 /* PapyGlobalVar3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC212067E4146008D5ED7 /* PapyGlobalVar3.h */; };
-		AB8CC226067E4147008D5ED7 /* PapyFileSystem3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC213067E4147008D5ED7 /* PapyFileSystem3.h */; };
-		AB8CC227067E4147008D5ED7 /* PapyErrorMacros3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC214067E4147008D5ED7 /* PapyErrorMacros3.h */; };
-		AB8CC228067E4147008D5ED7 /* PapyError3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC215067E4147008D5ED7 /* PapyError3.h */; };
-		AB8CC229067E4147008D5ED7 /* PapyEnumModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC216067E4147008D5ED7 /* PapyEnumModules3.h */; };
-		AB8CC22A067E4147008D5ED7 /* PapyEnumMiscModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC217067E4147008D5ED7 /* PapyEnumMiscModules3.h */; };
-		AB8CC22B067E4147008D5ED7 /* PapyEnumMiscGroups3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC218067E4147008D5ED7 /* PapyEnumMiscGroups3.h */; };
-		AB8CC22C067E4147008D5ED7 /* PapyEnumImagesModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC219067E4147008D5ED7 /* PapyEnumImagesModules3.h */; };
-		AB8CC22D067E4147008D5ED7 /* PapyEnumGroups3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21A067E4147008D5ED7 /* PapyEnumGroups3.h */; };
-		AB8CC22E067E4147008D5ED7 /* PapyEalloc3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21B067E4147008D5ED7 /* PapyEalloc3.h */; };
-		AB8CC22F067E4147008D5ED7 /* PapyInitModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21C067E4147008D5ED7 /* PapyInitModules3.h */; };
-		AB8CC230067E4147008D5ED7 /* PapyPrivFunctionDef3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21D067E4147008D5ED7 /* PapyPrivFunctionDef3.h */; };
-		AB8CC231067E4147008D5ED7 /* PapyMemSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21E067E4147008D5ED7 /* PapyMemSystem.h */; };
-		AB8CC233067E4147008D5ED7 /* PapyEnumImageGroups3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC220067E4147008D5ED7 /* PapyEnumImageGroups3.h */; };
-		AB8CC234067E4147008D5ED7 /* PapyWild3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC221067E4147008D5ED7 /* PapyWild3.h */; };
-		AB8CC235067E4147008D5ED7 /* PapyTypeDef3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC222067E4147008D5ED7 /* PapyTypeDef3.h */; };
-		AB8CC236067E4147008D5ED7 /* Papyrus3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC223067E4147008D5ED7 /* Papyrus3.h */; };
-		AB8CC237067E4147008D5ED7 /* PapyPubFunctionDef3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC224067E4147008D5ED7 /* PapyPubFunctionDef3.h */; };
 		AB91224E10DA7199006E0AAB /* BonjourPublisher.h in Headers */ = {isa = PBXBuildFile; fileRef = A99B7E5008858D31004328C0 /* BonjourPublisher.h */; };
 		AB9139B906839830006F3936 /* PIC.icns in Resources */ = {isa = PBXBuildFile; fileRef = AB9139B706839830006F3936 /* PIC.icns */; };
 		AB9139BA06839830006F3936 /* lsm.icns in Resources */ = {isa = PBXBuildFile; fileRef = AB9139B806839830006F3936 /* lsm.icns */; };
@@ -8397,10 +8395,8 @@
 		CEC0BFA315A597DB0012D879 /* ComparativeCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = CEC0BF9F15A597DB0012D879 /* ComparativeCell.mm */; };
 		CEC4467C10664C2B0061B338 /* ViewerController.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE17661056D2659009C93B5 /* ViewerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEC4B5C10C7DF2D600AF5A76 /* 3DPRESETS in Resources */ = {isa = PBXBuildFile; fileRef = CEC4B5A20C7DF2D600AF5A76 /* 3DPRESETS */; };
-		CEC7055610A5C844008935EA /* jpeg_memsrc.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A6790D0EEED04000AE5C98 /* jpeg_memsrc.h */; };
 		CEC7055A10A5C844008935EA /* dvpssp.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0DF7430FD79FDE00A7C57E /* dvpssp.h */; };
 		CEC7055B10A5C844008935EA /* dviface.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0DF7450FD79FEA00A7C57E /* dviface.h */; };
-		CEC7055C10A5C844008935EA /* jpeg_memdest.h in Headers */ = {isa = PBXBuildFile; fileRef = 848631C10FE77E1F00B96E99 /* jpeg_memdest.h */; };
 		CEC7055D10A5C844008935EA /* Notifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E088A70FF0AB9400452F19 /* Notifications.h */; };
 		CEC7055E10A5C844008935EA /* OSIWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C450F41003384000138F70 /* OSIWindow.h */; };
 		CEC7055F10A5C844008935EA /* CurveFitter.h in Headers */ = {isa = PBXBuildFile; fileRef = CE94FC001053FFD3006D92E4 /* CurveFitter.h */; };
@@ -8961,24 +8957,6 @@
 		CEC7FCA510A5C844008935EA /* Window3DController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3F4A1D0672674000E61A6C /* Window3DController.h */; };
 		CEC7FCA610A5C844008935EA /* PluginFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2C24E10677861300A08910 /* PluginFilter.h */; };
 		CEC7FCA710A5C844008935EA /* PluginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2C25210677873200A08910 /* PluginManager.h */; };
-		CEC7FCA810A5C844008935EA /* PapyGlobalVar3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC212067E4146008D5ED7 /* PapyGlobalVar3.h */; };
-		CEC7FCA910A5C844008935EA /* PapyFileSystem3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC213067E4147008D5ED7 /* PapyFileSystem3.h */; };
-		CEC7FCAA10A5C844008935EA /* PapyErrorMacros3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC214067E4147008D5ED7 /* PapyErrorMacros3.h */; };
-		CEC7FCAB10A5C844008935EA /* PapyError3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC215067E4147008D5ED7 /* PapyError3.h */; };
-		CEC7FCAC10A5C844008935EA /* PapyEnumModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC216067E4147008D5ED7 /* PapyEnumModules3.h */; };
-		CEC7FCAD10A5C844008935EA /* PapyEnumMiscModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC217067E4147008D5ED7 /* PapyEnumMiscModules3.h */; };
-		CEC7FCAE10A5C844008935EA /* PapyEnumMiscGroups3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC218067E4147008D5ED7 /* PapyEnumMiscGroups3.h */; };
-		CEC7FCAF10A5C844008935EA /* PapyEnumImagesModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC219067E4147008D5ED7 /* PapyEnumImagesModules3.h */; };
-		CEC7FCB010A5C844008935EA /* PapyEnumGroups3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21A067E4147008D5ED7 /* PapyEnumGroups3.h */; };
-		CEC7FCB110A5C844008935EA /* PapyEalloc3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21B067E4147008D5ED7 /* PapyEalloc3.h */; };
-		CEC7FCB210A5C844008935EA /* PapyInitModules3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21C067E4147008D5ED7 /* PapyInitModules3.h */; };
-		CEC7FCB310A5C844008935EA /* PapyPrivFunctionDef3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21D067E4147008D5ED7 /* PapyPrivFunctionDef3.h */; };
-		CEC7FCB410A5C844008935EA /* PapyMemSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC21E067E4147008D5ED7 /* PapyMemSystem.h */; };
-		CEC7FCB510A5C844008935EA /* PapyEnumImageGroups3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC220067E4147008D5ED7 /* PapyEnumImageGroups3.h */; };
-		CEC7FCB610A5C844008935EA /* PapyWild3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC221067E4147008D5ED7 /* PapyWild3.h */; };
-		CEC7FCB710A5C844008935EA /* PapyTypeDef3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC222067E4147008D5ED7 /* PapyTypeDef3.h */; };
-		CEC7FCB810A5C844008935EA /* Papyrus3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC223067E4147008D5ED7 /* Papyrus3.h */; };
-		CEC7FCB910A5C844008935EA /* PapyPubFunctionDef3.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CC224067E4147008D5ED7 /* PapyPubFunctionDef3.h */; };
 		CEC7FCBE10A5C844008935EA /* ButtonAndTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BF76A59706ACC6FD00FABE42 /* ButtonAndTextField.h */; };
 		CEC7FCBF10A5C844008935EA /* ButtonAndTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BF76A5A506ACC70C00FABE42 /* ButtonAndTextCell.h */; };
 		CEC7FCC110A5C844008935EA /* Mailer.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF0E5FF06AEF326001FF9E5 /* Mailer.h */; };
@@ -9317,14 +9295,9 @@
 		CEE8CED10D00AA71009FA5F9 /* NSAppleScript+HandlerCalls.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8CECF0D00AA71009FA5F9 /* NSAppleScript+HandlerCalls.h */; };
 		CEEA2D8613DB57C000F4CE1C /* libtiffOsiriX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEA2D8313DB558600F4CE1C /* libtiffOsiriX.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		CEEB5CCC0CCDD161008803E2 /* Centerline.tif in Resources */ = {isa = PBXBuildFile; fileRef = CEEB5CCA0CCDD161008803E2 /* Centerline.tif */; };
-		CEED77D8123038F300258D00 /* PapyVars3.c in Sources */ = {isa = PBXBuildFile; fileRef = CEED77D7123038F300258D00 /* PapyVars3.c */; };
-		CEED77D9123038F300258D00 /* PapyVars3.c in Sources */ = {isa = PBXBuildFile; fileRef = CEED77D7123038F300258D00 /* PapyVars3.c */; };
-		CEED77DA123038F300258D00 /* PapyVars3.c in Sources */ = {isa = PBXBuildFile; fileRef = CEED77D7123038F300258D00 /* PapyVars3.c */; };
 		CEEDA35706A061EB00DEAB22 /* ThickSlabVR.h in Headers */ = {isa = PBXBuildFile; fileRef = CEEDA35306A061EB00DEAB22 /* ThickSlabVR.h */; };
 		CEEDA35806A061EB00DEAB22 /* ThickSlabVR.mm in Sources */ = {isa = PBXBuildFile; fileRef = CEEDA35406A061EB00DEAB22 /* ThickSlabVR.mm */; };
-		CEEE567D1775EB11008C6DFA /* libPapyrusToolkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEE567C1775EB11008C6DFA /* libPapyrusToolkit.a */; };
 		CEEE567E1775EB11008C6DFA /* libPapyrusToolkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEE567C1775EB11008C6DFA /* libPapyrusToolkit.a */; };
-		CEEE567F1775EB11008C6DFA /* libPapyrusToolkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEE567C1775EB11008C6DFA /* libPapyrusToolkit.a */; };
 		CEF09317182D23B20020C70A /* ThumbnailsList.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF09315182D23B20020C70A /* ThumbnailsList.xib */; };
 		CEF09318182D23B20020C70A /* ThumbnailsList.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF09315182D23B20020C70A /* ThumbnailsList.xib */; };
 		CEF0E4BC06AEC91F001FF9E5 /* Message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF0E4BB06AEC91F001FF9E5 /* Message.framework */; };
@@ -9443,6 +9416,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 59BDEC2C117C92B2007F1F2C;
 			remoteInfo = "OsiriX Launcher";
+		};
+		9333112518A87D54002673A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9333112118A87D54002673A3 /* Papyrus3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93251E781897517500AEEF15;
+			remoteInfo = Papyrus3;
+		};
+		9333112718A87D64002673A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9333112118A87D54002673A3 /* Papyrus3.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93251E771897517500AEEF15;
+			remoteInfo = Papyrus3;
+		};
+		938147E218A9C45C0098D659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9333112118A87D54002673A3 /* Papyrus3.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93251E771897517500AEEF15;
+			remoteInfo = Papyrus3;
 		};
 		AB0F3A411046BFB9004129DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -9956,7 +9950,6 @@
 		8476BC331599D7E900451331 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = ../../../../System/Library/Frameworks/CoreMedia.framework; sourceTree = "<group>"; };
 		848327AA15ED08F3003BAEEB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Binaries/English.lproj/CustomIntervalPanel.xib; sourceTree = "<group>"; };
 		8483ABA50E1BE33900C21B31 /* crossCursor.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = crossCursor.tif; path = Cursors/crossCursor.tif; sourceTree = "<group>"; };
-		848631C10FE77E1F00B96E99 /* jpeg_memdest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jpeg_memdest.h; path = Papyrus3/jpeg_memdest.h; sourceTree = "<group>"; };
 		848A6BE714C5BBA700C936C3 /* Tiling1x1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Tiling1x1.pdf; path = Binaries/Icons/Tiling/Tiling1x1.pdf; sourceTree = "<group>"; };
 		848A6BE814C5BBA700C936C3 /* Tiling1x2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Tiling1x2.pdf; path = Binaries/Icons/Tiling/Tiling1x2.pdf; sourceTree = "<group>"; };
 		848A6BE914C5BBA700C936C3 /* Tiling2x1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Tiling2x1.pdf; path = Binaries/Icons/Tiling/Tiling2x1.pdf; sourceTree = "<group>"; };
@@ -9965,7 +9958,6 @@
 		849B44BA1552B2D800194728 /* OsiriXNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OsiriXNotificationCenter.m; sourceTree = "<group>"; };
 		84A220E60F25E41800C6C3EB /* ROIs.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ROIs.tif; sourceTree = "<group>"; };
 		84A220E70F25E41800C6C3EB /* Keys.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Keys.tif; sourceTree = "<group>"; };
-		84A6790D0EEED04000AE5C98 /* jpeg_memsrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jpeg_memsrc.h; path = Papyrus3/jpeg_memsrc.h; sourceTree = "<group>"; };
 		84A9D48B12F7F8EA00DA1F99 /* libkdu_v73R.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkdu_v73R.a; path = "Binaries/KDU SDK/libkdu_v73R.a"; sourceTree = "<group>"; };
 		84A9D49312F7F90700DA1F99 /* kdu_OsiriXSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kdu_OsiriXSupport.h; path = "Binaries/KDU SDK/kdu_OsiriXSupport.h"; sourceTree = "<group>"; };
 		84ADF460115B622D00FE18B2 /* SRController+StereoVision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SRController+StereoVision.h"; sourceTree = "<group>"; };
@@ -9997,6 +9989,24 @@
 		84D7BBE2154A941A007B5A86 /* NSNotificationCenter+N2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSNotificationCenter+N2.mm"; path = "nitrogen/Sources/NSNotificationCenter+N2.mm"; sourceTree = "<group>"; };
 		84E191F91369966A008DCFC8 /* WADODownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WADODownload.h; sourceTree = "<group>"; };
 		84E191FA1369966A008DCFC8 /* WADODownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WADODownload.m; sourceTree = "<group>"; };
+		9333112118A87D54002673A3 /* Papyrus3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Papyrus3.xcodeproj; path = ../Papyrus3/Papyrus3.xcodeproj; sourceTree = "<group>"; };
+		9333112918A87F3B002673A3 /* PapyEalloc3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyEalloc3.h; path = ../Papyrus3/PapyEalloc3.h; sourceTree = "<group>"; };
+		9333112A18A87F3B002673A3 /* PapyEnumGroups3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyEnumGroups3.h; path = ../Papyrus3/PapyEnumGroups3.h; sourceTree = "<group>"; };
+		9333112B18A87F3B002673A3 /* PapyEnumImageGroups3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyEnumImageGroups3.h; path = ../Papyrus3/PapyEnumImageGroups3.h; sourceTree = "<group>"; };
+		9333112C18A87F3B002673A3 /* PapyEnumImagesModules3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyEnumImagesModules3.h; path = ../Papyrus3/PapyEnumImagesModules3.h; sourceTree = "<group>"; };
+		9333112D18A87F3B002673A3 /* PapyEnumMiscGroups3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyEnumMiscGroups3.h; path = ../Papyrus3/PapyEnumMiscGroups3.h; sourceTree = "<group>"; };
+		9333112E18A87F3B002673A3 /* PapyEnumMiscModules3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyEnumMiscModules3.h; path = ../Papyrus3/PapyEnumMiscModules3.h; sourceTree = "<group>"; };
+		9333112F18A87F3B002673A3 /* PapyEnumModules3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyEnumModules3.h; path = ../Papyrus3/PapyEnumModules3.h; sourceTree = "<group>"; };
+		9333113018A87F3B002673A3 /* PapyError3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyError3.h; path = ../Papyrus3/PapyError3.h; sourceTree = "<group>"; };
+		9333113118A87F3B002673A3 /* PapyErrorMacros3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyErrorMacros3.h; path = ../Papyrus3/PapyErrorMacros3.h; sourceTree = "<group>"; };
+		9333113218A87F3B002673A3 /* PapyFileSystem3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyFileSystem3.h; path = ../Papyrus3/PapyFileSystem3.h; sourceTree = "<group>"; };
+		9333113318A87F3B002673A3 /* PapyGlobalVar3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyGlobalVar3.h; path = ../Papyrus3/PapyGlobalVar3.h; sourceTree = "<group>"; };
+		9333113418A87F3B002673A3 /* PapyInitModules3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyInitModules3.h; path = ../Papyrus3/PapyInitModules3.h; sourceTree = "<group>"; };
+		9333113518A87F3B002673A3 /* PapyMemSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyMemSystem.h; path = ../Papyrus3/PapyMemSystem.h; sourceTree = "<group>"; };
+		9333113718A87F3B002673A3 /* PapyPubFunctionDef3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyPubFunctionDef3.h; path = ../Papyrus3/PapyPubFunctionDef3.h; sourceTree = "<group>"; };
+		9333113818A87F3B002673A3 /* PapyTypeDef3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyTypeDef3.h; path = ../Papyrus3/PapyTypeDef3.h; sourceTree = "<group>"; };
+		9333113918A87F3B002673A3 /* PapyWild3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PapyWild3.h; path = ../Papyrus3/PapyWild3.h; sourceTree = "<group>"; };
+		938147E018A9B9290098D659 /* Papyrus3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Papyrus3.h; path = ../Papyrus3/Papyrus3.h; sourceTree = "<group>"; };
 		953DA3D517A1D194000C4BAC /* WebPortalDB 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WebPortalDB 8.xcdatamodel"; sourceTree = "<group>"; };
 		A085E103141E53210072BF0D /* DCMUSRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMUSRegion.h; sourceTree = "<group>"; };
 		A085E104141E53210072BF0D /* DCMUSRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMUSRegion.m; sourceTree = "<group>"; };
@@ -10439,24 +10449,6 @@
 		AB87FA770C06BEB200CD2976 /* nifti1_io.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = nifti1_io.h; sourceTree = "<group>"; };
 		AB87FA780C06BEB200CD2976 /* znzlib.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = znzlib.c; sourceTree = "<group>"; };
 		AB87FA790C06BEB200CD2976 /* znzlib.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = znzlib.h; sourceTree = "<group>"; };
-		AB8CC212067E4146008D5ED7 /* PapyGlobalVar3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyGlobalVar3.h; path = Papyrus3/PapyGlobalVar3.h; sourceTree = "<group>"; };
-		AB8CC213067E4147008D5ED7 /* PapyFileSystem3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyFileSystem3.h; path = Papyrus3/PapyFileSystem3.h; sourceTree = "<group>"; };
-		AB8CC214067E4147008D5ED7 /* PapyErrorMacros3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyErrorMacros3.h; path = Papyrus3/PapyErrorMacros3.h; sourceTree = "<group>"; };
-		AB8CC215067E4147008D5ED7 /* PapyError3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyError3.h; path = Papyrus3/PapyError3.h; sourceTree = "<group>"; };
-		AB8CC216067E4147008D5ED7 /* PapyEnumModules3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyEnumModules3.h; path = Papyrus3/PapyEnumModules3.h; sourceTree = "<group>"; };
-		AB8CC217067E4147008D5ED7 /* PapyEnumMiscModules3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyEnumMiscModules3.h; path = Papyrus3/PapyEnumMiscModules3.h; sourceTree = "<group>"; };
-		AB8CC218067E4147008D5ED7 /* PapyEnumMiscGroups3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyEnumMiscGroups3.h; path = Papyrus3/PapyEnumMiscGroups3.h; sourceTree = "<group>"; };
-		AB8CC219067E4147008D5ED7 /* PapyEnumImagesModules3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyEnumImagesModules3.h; path = Papyrus3/PapyEnumImagesModules3.h; sourceTree = "<group>"; };
-		AB8CC21A067E4147008D5ED7 /* PapyEnumGroups3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyEnumGroups3.h; path = Papyrus3/PapyEnumGroups3.h; sourceTree = "<group>"; };
-		AB8CC21B067E4147008D5ED7 /* PapyEalloc3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyEalloc3.h; path = Papyrus3/PapyEalloc3.h; sourceTree = "<group>"; };
-		AB8CC21C067E4147008D5ED7 /* PapyInitModules3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyInitModules3.h; path = Papyrus3/PapyInitModules3.h; sourceTree = "<group>"; };
-		AB8CC21D067E4147008D5ED7 /* PapyPrivFunctionDef3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyPrivFunctionDef3.h; path = Papyrus3/PapyPrivFunctionDef3.h; sourceTree = "<group>"; };
-		AB8CC21E067E4147008D5ED7 /* PapyMemSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyMemSystem.h; path = Papyrus3/PapyMemSystem.h; sourceTree = "<group>"; };
-		AB8CC220067E4147008D5ED7 /* PapyEnumImageGroups3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyEnumImageGroups3.h; path = Papyrus3/PapyEnumImageGroups3.h; sourceTree = "<group>"; };
-		AB8CC221067E4147008D5ED7 /* PapyWild3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyWild3.h; path = Papyrus3/PapyWild3.h; sourceTree = "<group>"; };
-		AB8CC222067E4147008D5ED7 /* PapyTypeDef3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyTypeDef3.h; path = Papyrus3/PapyTypeDef3.h; sourceTree = "<group>"; };
-		AB8CC223067E4147008D5ED7 /* Papyrus3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Papyrus3.h; path = Papyrus3/Papyrus3.h; sourceTree = "<group>"; };
-		AB8CC224067E4147008D5ED7 /* PapyPubFunctionDef3.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PapyPubFunctionDef3.h; path = Papyrus3/PapyPubFunctionDef3.h; sourceTree = "<group>"; };
 		AB9139B706839830006F3936 /* PIC.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PIC.icns; sourceTree = "<group>"; };
 		AB9139B806839830006F3936 /* lsm.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = lsm.icns; sourceTree = "<group>"; };
 		AB92A3A70642B32D0048DC15 /* SmallLogo.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SmallLogo.tif; sourceTree = "<group>"; };
@@ -15275,7 +15267,6 @@
 		CEE8CECF0D00AA71009FA5F9 /* NSAppleScript+HandlerCalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAppleScript+HandlerCalls.h"; sourceTree = "<group>"; };
 		CEEA2D8313DB558600F4CE1C /* libtiffOsiriX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtiffOsiriX.a; sourceTree = "<group>"; };
 		CEEB5CCA0CCDD161008803E2 /* Centerline.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Centerline.tif; sourceTree = "<group>"; };
-		CEED77D7123038F300258D00 /* PapyVars3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PapyVars3.c; path = Papyrus3/PapyVars3.c; sourceTree = "<group>"; };
 		CEEDA35306A061EB00DEAB22 /* ThickSlabVR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThickSlabVR.h; sourceTree = "<group>"; };
 		CEEDA35406A061EB00DEAB22 /* ThickSlabVR.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ThickSlabVR.mm; sourceTree = "<group>"; };
 		CEEE567C1775EB11008C6DFA /* libPapyrusToolkit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPapyrusToolkit.a; path = Binaries/libPapyrusToolkit.a; sourceTree = "<group>"; };
@@ -15491,6 +15482,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938147E418A9C4690098D659 /* libPapyrus3.a in Frameworks */,
 				AB28B48805B7998800A9906C /* AppKit.framework in Frameworks */,
 				AB28B48A05B7998A00A9906C /* AGL.framework in Frameworks */,
 				AB28B48B05B7998A00A9906C /* OpenGL.framework in Frameworks */,
@@ -15644,7 +15636,6 @@
 				CE65D9F115C4843300E9D94C /* DiskArbitration.framework in Frameworks */,
 				CEA9237215CE3F7C00D3385F /* InstantMessage.framework in Frameworks */,
 				CEA9237515CE436E00D3385F /* AddressBook.framework in Frameworks */,
-				CEEE567D1775EB11008C6DFA /* libPapyrusToolkit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15652,6 +15643,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9333114B18A8826A002673A3 /* libPapyrus3.a in Frameworks */,
 				AB724FEC0ADE6ECB00A212A0 /* Foundation.framework in Frameworks */,
 				AB724FEF0ADE6ECB00A212A0 /* Cocoa.framework in Frameworks */,
 				AB724FF10ADE6ECB00A212A0 /* IOKit.framework in Frameworks */,
@@ -15669,7 +15661,6 @@
 				8476BC321599D51300451331 /* AVFoundation.framework in Frameworks */,
 				8476BC361599D7E900451331 /* CoreMedia.framework in Frameworks */,
 				8412AF9C1758C3E300092D95 /* libvtktiff.a in Frameworks */,
-				CEEE567F1775EB11008C6DFA /* libPapyrusToolkit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15862,6 +15853,7 @@
 		29B97314FDCFA39411CA2CEA /* OsiriX */ = {
 			isa = PBXGroup;
 			children = (
+				9333112118A87D54002673A3 /* Papyrus3.xcodeproj */,
 				84704DBF181ACF440061B1BF /* Rules.plist */,
 				AB451801149F44DD006674BF /* JPEG-LS (CharLS) */,
 				84A9D44712F7F8BE00DA1F99 /* KDU SDK */,
@@ -16570,6 +16562,14 @@
 				84ADF471115B622D00FE18B2 /* Window3DController+StereoVision.m */,
 			);
 			name = StereoVision;
+			sourceTree = "<group>";
+		};
+		9333112218A87D54002673A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9333112618A87D54002673A3 /* libPapyrus3.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A90C722016E4D8AE0060302F /* Data */ = {
@@ -17613,27 +17613,23 @@
 		ABF1427B056469CC00CB071B /* Papyrus */ = {
 			isa = PBXGroup;
 			children = (
-				848631C10FE77E1F00B96E99 /* jpeg_memdest.h */,
-				84A6790D0EEED04000AE5C98 /* jpeg_memsrc.h */,
-				AB8CC212067E4146008D5ED7 /* PapyGlobalVar3.h */,
-				AB8CC213067E4147008D5ED7 /* PapyFileSystem3.h */,
-				AB8CC214067E4147008D5ED7 /* PapyErrorMacros3.h */,
-				AB8CC215067E4147008D5ED7 /* PapyError3.h */,
-				AB8CC216067E4147008D5ED7 /* PapyEnumModules3.h */,
-				AB8CC217067E4147008D5ED7 /* PapyEnumMiscModules3.h */,
-				AB8CC218067E4147008D5ED7 /* PapyEnumMiscGroups3.h */,
-				AB8CC219067E4147008D5ED7 /* PapyEnumImagesModules3.h */,
-				AB8CC21A067E4147008D5ED7 /* PapyEnumGroups3.h */,
-				AB8CC21B067E4147008D5ED7 /* PapyEalloc3.h */,
-				AB8CC21C067E4147008D5ED7 /* PapyInitModules3.h */,
-				AB8CC21D067E4147008D5ED7 /* PapyPrivFunctionDef3.h */,
-				AB8CC21E067E4147008D5ED7 /* PapyMemSystem.h */,
-				AB8CC220067E4147008D5ED7 /* PapyEnumImageGroups3.h */,
-				AB8CC221067E4147008D5ED7 /* PapyWild3.h */,
-				AB8CC222067E4147008D5ED7 /* PapyTypeDef3.h */,
-				AB8CC223067E4147008D5ED7 /* Papyrus3.h */,
-				AB8CC224067E4147008D5ED7 /* PapyPubFunctionDef3.h */,
-				CEED77D7123038F300258D00 /* PapyVars3.c */,
+				938147E018A9B9290098D659 /* Papyrus3.h */,
+				9333112918A87F3B002673A3 /* PapyEalloc3.h */,
+				9333112A18A87F3B002673A3 /* PapyEnumGroups3.h */,
+				9333112B18A87F3B002673A3 /* PapyEnumImageGroups3.h */,
+				9333112C18A87F3B002673A3 /* PapyEnumImagesModules3.h */,
+				9333112D18A87F3B002673A3 /* PapyEnumMiscGroups3.h */,
+				9333112E18A87F3B002673A3 /* PapyEnumMiscModules3.h */,
+				9333112F18A87F3B002673A3 /* PapyEnumModules3.h */,
+				9333113018A87F3B002673A3 /* PapyError3.h */,
+				9333113118A87F3B002673A3 /* PapyErrorMacros3.h */,
+				9333113218A87F3B002673A3 /* PapyFileSystem3.h */,
+				9333113318A87F3B002673A3 /* PapyGlobalVar3.h */,
+				9333113418A87F3B002673A3 /* PapyInitModules3.h */,
+				9333113518A87F3B002673A3 /* PapyMemSystem.h */,
+				9333113718A87F3B002673A3 /* PapyPubFunctionDef3.h */,
+				9333113818A87F3B002673A3 /* PapyTypeDef3.h */,
+				9333113918A87F3B002673A3 /* PapyWild3.h */,
 			);
 			name = Papyrus;
 			sourceTree = SOURCE_ROOT;
@@ -22669,24 +22665,6 @@
 				AB3F4A1F0672674000E61A6C /* Window3DController.h in Headers */,
 				AB2C24E30677861300A08910 /* PluginFilter.h in Headers */,
 				AB2C25230677873200A08910 /* PluginManager.h in Headers */,
-				AB8CC225067E4147008D5ED7 /* PapyGlobalVar3.h in Headers */,
-				AB8CC226067E4147008D5ED7 /* PapyFileSystem3.h in Headers */,
-				AB8CC227067E4147008D5ED7 /* PapyErrorMacros3.h in Headers */,
-				AB8CC228067E4147008D5ED7 /* PapyError3.h in Headers */,
-				AB8CC229067E4147008D5ED7 /* PapyEnumModules3.h in Headers */,
-				AB8CC22A067E4147008D5ED7 /* PapyEnumMiscModules3.h in Headers */,
-				AB8CC22B067E4147008D5ED7 /* PapyEnumMiscGroups3.h in Headers */,
-				AB8CC22C067E4147008D5ED7 /* PapyEnumImagesModules3.h in Headers */,
-				AB8CC22D067E4147008D5ED7 /* PapyEnumGroups3.h in Headers */,
-				AB8CC22E067E4147008D5ED7 /* PapyEalloc3.h in Headers */,
-				AB8CC22F067E4147008D5ED7 /* PapyInitModules3.h in Headers */,
-				AB8CC230067E4147008D5ED7 /* PapyPrivFunctionDef3.h in Headers */,
-				AB8CC231067E4147008D5ED7 /* PapyMemSystem.h in Headers */,
-				AB8CC233067E4147008D5ED7 /* PapyEnumImageGroups3.h in Headers */,
-				AB8CC234067E4147008D5ED7 /* PapyWild3.h in Headers */,
-				AB8CC235067E4147008D5ED7 /* PapyTypeDef3.h in Headers */,
-				AB8CC236067E4147008D5ED7 /* Papyrus3.h in Headers */,
-				AB8CC237067E4147008D5ED7 /* PapyPubFunctionDef3.h in Headers */,
 				CEEDA35706A061EB00DEAB22 /* ThickSlabVR.h in Headers */,
 				CE0E08E806A106D700F2C01C /* ThickSlabController.h in Headers */,
 				BF76A59906ACC6FD00FABE42 /* ButtonAndTextField.h in Headers */,
@@ -22701,6 +22679,7 @@
 				CE4A922E06DBF255006DAAF7 /* ITKSegmentation3D.h in Headers */,
 				BF00C95C06F3F43900715191 /* DCMCursor.h in Headers */,
 				7ECB4B41072EF9F800C2CFC4 /* DCMCalendarScript.h in Headers */,
+				938147E118A9B9290098D659 /* Papyrus3.h in Headers */,
 				CEA20537073A810100F0DAB7 /* iPhoto.h in Headers */,
 				7EB4AAE7079494CB007AD271 /* QueryArrayController.h in Headers */,
 				7E54307707A05ED100500ABB /* BurnerWindowController.h in Headers */,
@@ -23159,6 +23138,7 @@
 				A91115610BFB354F001000B4 /* ColorView.h in Headers */,
 				A918CC7D0C02E51B00CAC7A3 /* stringAdditions.h in Headers */,
 				ABC47B590C031397001CEA21 /* BrowserMatrix.h in Headers */,
+				9333113F18A87F3B002673A3 /* PapyEnumMiscModules3.h in Headers */,
 				AB87FA7A0C06BEB200CD2976 /* nifti1.h in Headers */,
 				AB87FA7C0C06BEB200CD2976 /* nifti1_io.h in Headers */,
 				AB87FA7E0C06BEB200CD2976 /* znzlib.h in Headers */,
@@ -23191,12 +23171,10 @@
 				CE087B0D0DE9BD6E000E5593 /* GLString.h in Headers */,
 				CE569B740E29612100F4A234 /* ThumbnailCell.h in Headers */,
 				CEAA6F430E50C085008802D2 /* OsiriXSCPDataHandler.h in Headers */,
-				84A6790E0EEED04000AE5C98 /* jpeg_memsrc.h in Headers */,
 				A9333D250F56E6800097DAB7 /* MPRDCMView.h in Headers */,
 				A9333D310F56E70B0097DAB7 /* MPRController.h in Headers */,
 				AB0DF7440FD79FDE00A7C57E /* dvpssp.h in Headers */,
 				AB0DF7460FD79FEA00A7C57E /* dviface.h in Headers */,
-				848631C30FE77E1F00B96E99 /* jpeg_memdest.h in Headers */,
 				59C2B8EC0FF0EB7700B50385 /* Notifications.h in Headers */,
 				84C4510C10033B8200138F70 /* OSIWindow.h in Headers */,
 				CE94FC021053FFD3006D92E4 /* CurveFitter.h in Headers */,
@@ -23742,6 +23720,7 @@
 				CEBD87E014F1ADD9000DA1FE /* H5FDmpio.h in Headers */,
 				CEBD87E114F1ADD9000DA1FE /* H5FDmpiposix.h in Headers */,
 				CEBD87E214F1ADD9000DA1FE /* H5FDmulti.h in Headers */,
+				9333114A18A87F3B002673A3 /* PapyWild3.h in Headers */,
 				CEBD87E314F1ADD9000DA1FE /* H5FDpkg.h in Headers */,
 				CEBD87E414F1ADD9000DA1FE /* H5FDprivate.h in Headers */,
 				CEBD87E514F1ADD9000DA1FE /* H5FDpublic.h in Headers */,
@@ -23758,6 +23737,7 @@
 				CEBD87F014F1ADD9000DA1FE /* H5FSpkg.h in Headers */,
 				CEBD87F114F1ADD9000DA1FE /* H5FSprivate.h in Headers */,
 				CEBD87F214F1ADD9000DA1FE /* H5FSpublic.h in Headers */,
+				9333114118A87F3B002673A3 /* PapyError3.h in Headers */,
 				CEBD87F314F1ADD9000DA1FE /* H5Gpkg.h in Headers */,
 				CEBD87F414F1ADD9000DA1FE /* H5Gprivate.h in Headers */,
 				CEBD87F514F1ADD9000DA1FE /* H5Gpublic.h in Headers */,
@@ -24125,6 +24105,7 @@
 				CEBD895E14F1ADDA000DA1FE /* tb.h in Headers */,
 				CEBD895F14F1ADDA000DA1FE /* tclInt 2.h in Headers */,
 				CEBD896014F1ADDA000DA1FE /* tclInt 3.h in Headers */,
+				9333113B18A87F3B002673A3 /* PapyEnumGroups3.h in Headers */,
 				CEBD896114F1ADDA000DA1FE /* tclInt 4.h in Headers */,
 				CEBD896214F1ADDA000DA1FE /* tclInt 5.h in Headers */,
 				CEBD896314F1ADDA000DA1FE /* tclInt.h in Headers */,
@@ -24509,6 +24490,7 @@
 				CEBD8AE214F1ADDA000DA1FE /* vtkCameraRepresentation.h in Headers */,
 				CEBD8AE314F1ADDA000DA1FE /* vtkCameraWidget.h in Headers */,
 				CEBD8AE414F1ADDA000DA1FE /* vtkCaptionActor2D.h in Headers */,
+				9333114618A87F3B002673A3 /* PapyMemSystem.h in Headers */,
 				CEBD8AE514F1ADDA000DA1FE /* vtkCaptionRepresentation.h in Headers */,
 				CEBD8AE614F1ADDA000DA1FE /* vtkCaptionWidget.h in Headers */,
 				CEBD8AE714F1ADDA000DA1FE /* vtkCarbonRenderWindow.h in Headers */,
@@ -24739,6 +24721,7 @@
 				CEBD8BCB14F1ADDA000DA1FE /* vtkDensifyPolyData.h in Headers */,
 				CEBD8BCC14F1ADDA000DA1FE /* vtkDepthPeeling_fs.h in Headers */,
 				CEBD8BCD14F1ADDA000DA1FE /* vtkDepthPeelingPass.h in Headers */,
+				9333114918A87F3B002673A3 /* PapyTypeDef3.h in Headers */,
 				CEBD8BCE14F1ADDA000DA1FE /* vtkDepthSortPolyData.h in Headers */,
 				CEBD8BCF14F1ADDA000DA1FE /* vtkDescriptiveStatistics.h in Headers */,
 				CEBD8BD014F1ADDA000DA1FE /* vtkDiagonalMatrixSource.h in Headers */,
@@ -24943,6 +24926,7 @@
 				CEBD8C9714F1ADDA000DA1FE /* vtkGenericOpenGLRenderWindow.h in Headers */,
 				CEBD8C9814F1ADDA000DA1FE /* vtkGenericOutlineFilter.h in Headers */,
 				CEBD8C9914F1ADDA000DA1FE /* vtkGenericPointIterator.h in Headers */,
+				9333113C18A87F3B002673A3 /* PapyEnumImageGroups3.h in Headers */,
 				CEBD8C9A14F1ADDA000DA1FE /* vtkGenericProbeFilter.h in Headers */,
 				CEBD8C9B14F1ADDA000DA1FE /* vtkGenericRenderWindowInteractor.h in Headers */,
 				CEBD8C9C14F1ADDA000DA1FE /* vtkGenericStreamTracer.h in Headers */,
@@ -25198,6 +25182,7 @@
 				CEBD8D9714F1ADDA000DA1FE /* vtkImageMaskBits.h in Headers */,
 				CEBD8D9814F1ADDA000DA1FE /* vtkImageMathematics.h in Headers */,
 				CEBD8D9914F1ADDA000DA1FE /* vtkImageMedian3D.h in Headers */,
+				9333114818A87F3B002673A3 /* PapyPubFunctionDef3.h in Headers */,
 				CEBD8D9A14F1ADDA000DA1FE /* vtkImageMirrorPad.h in Headers */,
 				CEBD8D9B14F1ADDA000DA1FE /* vtkImageMultipleInputFilter.h in Headers */,
 				CEBD8D9C14F1ADDA000DA1FE /* vtkImageMultipleInputOutputFilter.h in Headers */,
@@ -25377,6 +25362,7 @@
 				CEBD8E4B14F1ADDA000DA1FE /* vtkLabelHierarchyIterator.h in Headers */,
 				CEBD8E4C14F1ADDA000DA1FE /* vtkLabelHierarchyPrivate.h in Headers */,
 				CEBD8E4D14F1ADDA000DA1FE /* vtkLabelPlacementMapper.h in Headers */,
+				9333114318A87F3B002673A3 /* PapyFileSystem3.h in Headers */,
 				CEBD8E4E14F1ADDA000DA1FE /* vtkLabelPlacer.h in Headers */,
 				CEBD8E4F14F1ADDA000DA1FE /* vtkLabelRenderStrategy.h in Headers */,
 				CEBD8E5014F1ADDA000DA1FE /* vtkLabelSizeCalculator.h in Headers */,
@@ -25534,6 +25520,7 @@
 				CEBD8EE714F1ADDB000DA1FE /* vtkMPEG2Writer.h in Headers */,
 				CEBD8EE814F1ADDB000DA1FE /* vtkMPI.h in Headers */,
 				CEBD8EE914F1ADDB000DA1FE /* vtkMPICommunicator.h in Headers */,
+				9333113A18A87F3B002673A3 /* PapyEalloc3.h in Headers */,
 				CEBD8EEA14F1ADDB000DA1FE /* vtkMPIController.h in Headers */,
 				CEBD8EEB14F1ADDB000DA1FE /* vtkMPIEventLog.h in Headers */,
 				CEBD8EEC14F1ADDB000DA1FE /* vtkMPIGroup.h in Headers */,
@@ -25617,6 +25604,7 @@
 				CEBD8F3A14F1ADDB000DA1FE /* vtkOpenGLPainterDeviceAdapter.h in Headers */,
 				CEBD8F3B14F1ADDB000DA1FE /* vtkOpenGLPolyDataMapper.h in Headers */,
 				CEBD8F3C14F1ADDB000DA1FE /* vtkOpenGLPolyDataMapper2D.h in Headers */,
+				9333114418A87F3B002673A3 /* PapyGlobalVar3.h in Headers */,
 				CEBD8F3D14F1ADDB000DA1FE /* vtkOpenGLProjectedAAHexahedraMapper.h in Headers */,
 				CEBD8F3E14F1ADDB000DA1FE /* vtkOpenGLProjectedPolyDataRayBounder.h in Headers */,
 				CEBD8F3F14F1ADDB000DA1FE /* vtkOpenGLProjectedTetrahedraMapper.h in Headers */,
@@ -25729,6 +25717,7 @@
 				CEBD8FAA14F1ADDB000DA1FE /* vtkPDBReader.h in Headers */,
 				CEBD8FAB14F1ADDB000DA1FE /* vtkPDescriptiveStatistics.h in Headers */,
 				CEBD8FAC14F1ADDB000DA1FE /* vtkPen.h in Headers */,
+				9333113E18A87F3B002673A3 /* PapyEnumMiscGroups3.h in Headers */,
 				CEBD8FAD14F1ADDB000DA1FE /* vtkPentagonalPrism.h in Headers */,
 				CEBD8FAE14F1ADDB000DA1FE /* vtkPeriodicTable.h in Headers */,
 				CEBD8FAF14F1ADDB000DA1FE /* vtkPerlinNoise.h in Headers */,
@@ -25823,6 +25812,7 @@
 				CEBD900814F1ADDB000DA1FE /* vtkPolyDataPointSampler.h in Headers */,
 				CEBD900914F1ADDB000DA1FE /* vtkPolyDataReader.h in Headers */,
 				CEBD900A14F1ADDB000DA1FE /* vtkPolyDataSilhouette.h in Headers */,
+				9333114218A87F3B002673A3 /* PapyErrorMacros3.h in Headers */,
 				CEBD900B14F1ADDB000DA1FE /* vtkPolyDataSource.h in Headers */,
 				CEBD900C14F1ADDB000DA1FE /* vtkPolyDataSourceWidget.h in Headers */,
 				CEBD900D14F1ADDB000DA1FE /* vtkPolyDataStreamer.h in Headers */,
@@ -26093,6 +26083,7 @@
 				CEBD911614F1ADDB000DA1FE /* vtkRenderState.h in Headers */,
 				CEBD911714F1ADDB000DA1FE /* vtkRenderView.h in Headers */,
 				CEBD911814F1ADDB000DA1FE /* vtkRenderViewBase.h in Headers */,
+				9333114018A87F3B002673A3 /* PapyEnumModules3.h in Headers */,
 				CEBD911914F1ADDB000DA1FE /* vtkRenderWindow.h in Headers */,
 				CEBD911A14F1ADDB000DA1FE /* vtkRenderWindowCollection.h in Headers */,
 				CEBD911B14F1ADDB000DA1FE /* vtkRenderWindowInteractor.h in Headers */,
@@ -26254,6 +26245,7 @@
 				CEBD91B814F1ADDB000DA1FE /* vtkStreamer.h in Headers */,
 				CEBD91B914F1ADDB000DA1FE /* vtkStreamGraph.h in Headers */,
 				CEBD91BA14F1ADDB000DA1FE /* vtkStreamingDemandDrivenPipeline.h in Headers */,
+				9333113D18A87F3B002673A3 /* PapyEnumImagesModules3.h in Headers */,
 				CEBD91BB14F1ADDB000DA1FE /* vtkStreamingStatistics.h in Headers */,
 				CEBD91BC14F1ADDB000DA1FE /* vtkStreamingTessellator.h in Headers */,
 				CEBD91BD14F1ADDB000DA1FE /* vtkStreamLine.h in Headers */,
@@ -26751,6 +26743,7 @@
 				71512E9D15234F6B00B87012 /* DiscMountedAskTheUserDialogController.h in Headers */,
 				714D3BB1152AE40C003EB087 /* O2ScreensPrefsView.h in Headers */,
 				714D3BC4152B2410003EB087 /* NSArray+N2.h in Headers */,
+				9333114518A87F3B002673A3 /* PapyInitModules3.h in Headers */,
 				84D7BBE3154A941A007B5A86 /* NSNotificationCenter+N2.h in Headers */,
 				CE594409155E3838007BDF5B /* NSApplication-Dock.h in Headers */,
 				CE59440B155E3838007BDF5B /* NSString+SymlinksAndAliases.h in Headers */,
@@ -26833,24 +26826,6 @@
 				CEC7FCA510A5C844008935EA /* Window3DController.h in Headers */,
 				CEC7FCA610A5C844008935EA /* PluginFilter.h in Headers */,
 				CEC7FCA710A5C844008935EA /* PluginManager.h in Headers */,
-				CEC7FCA810A5C844008935EA /* PapyGlobalVar3.h in Headers */,
-				CEC7FCA910A5C844008935EA /* PapyFileSystem3.h in Headers */,
-				CEC7FCAA10A5C844008935EA /* PapyErrorMacros3.h in Headers */,
-				CEC7FCAB10A5C844008935EA /* PapyError3.h in Headers */,
-				CEC7FCAC10A5C844008935EA /* PapyEnumModules3.h in Headers */,
-				CEC7FCAD10A5C844008935EA /* PapyEnumMiscModules3.h in Headers */,
-				CEC7FCAE10A5C844008935EA /* PapyEnumMiscGroups3.h in Headers */,
-				CEC7FCAF10A5C844008935EA /* PapyEnumImagesModules3.h in Headers */,
-				CEC7FCB010A5C844008935EA /* PapyEnumGroups3.h in Headers */,
-				CEC7FCB110A5C844008935EA /* PapyEalloc3.h in Headers */,
-				CEC7FCB210A5C844008935EA /* PapyInitModules3.h in Headers */,
-				CEC7FCB310A5C844008935EA /* PapyPrivFunctionDef3.h in Headers */,
-				CEC7FCB410A5C844008935EA /* PapyMemSystem.h in Headers */,
-				CEC7FCB510A5C844008935EA /* PapyEnumImageGroups3.h in Headers */,
-				CEC7FCB610A5C844008935EA /* PapyWild3.h in Headers */,
-				CEC7FCB710A5C844008935EA /* PapyTypeDef3.h in Headers */,
-				CEC7FCB810A5C844008935EA /* Papyrus3.h in Headers */,
-				CEC7FCB910A5C844008935EA /* PapyPubFunctionDef3.h in Headers */,
 				CEC7FCBE10A5C844008935EA /* ButtonAndTextField.h in Headers */,
 				CEC7FCBF10A5C844008935EA /* ButtonAndTextCell.h in Headers */,
 				CEC7FCC110A5C844008935EA /* Mailer.h in Headers */,
@@ -27144,10 +27119,8 @@
 				CEC7FF2410A5C844008935EA /* ThreeDPanView.h in Headers */,
 				CEC7FF2610A5C844008935EA /* GLString.h in Headers */,
 				CEC7FF2710A5C844008935EA /* ThumbnailCell.h in Headers */,
-				CEC7055610A5C844008935EA /* jpeg_memsrc.h in Headers */,
 				CEC7055A10A5C844008935EA /* dvpssp.h in Headers */,
 				CEC7055B10A5C844008935EA /* dviface.h in Headers */,
-				CEC7055C10A5C844008935EA /* jpeg_memdest.h in Headers */,
 				CEC7055D10A5C844008935EA /* Notifications.h in Headers */,
 				CEC7055E10A5C844008935EA /* OSIWindow.h in Headers */,
 				CEC7055F10A5C844008935EA /* CurveFitter.h in Headers */,
@@ -27441,6 +27414,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				938147E318A9C45C0098D659 /* PBXTargetDependency */,
 				4A2ADDFD078D3C6200416F53 /* PBXTargetDependency */,
 				59BDEE6B117CB393007F1F2C /* PBXTargetDependency */,
 			);
@@ -27459,6 +27433,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9333112818A87D64002673A3 /* PBXTargetDependency */,
 			);
 			name = Decompress;
 			productName = SafeDBRebuild;
@@ -27545,6 +27520,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* OsiriX */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9333112218A87D54002673A3 /* Products */;
+					ProjectRef = 9333112118A87D54002673A3 /* Papyrus3.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AB28B42E05B7921E00A9906C /* OsiriX */,
@@ -27561,6 +27542,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9333112618A87D54002673A3 /* libPapyrus3.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPapyrus3.a;
+			remoteRef = 9333112518A87D54002673A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		59BDEC29117C92B2007F1F2C /* Resources */ = {
@@ -30062,7 +30053,6 @@
 				A96F78A916DBBFC1000E877A /* ofstring.cc in Sources */,
 				A96F78AA16DBBFC1000E877A /* ofthread.cc in Sources */,
 				A96F78AB16DBBFC1000E877A /* oftime.cc in Sources */,
-				A96F78AC16DBBFC1000E877A /* PapyVars3.c in Sources */,
 				A96F78AD16DBBFC1000E877A /* altivecFunctions.c in Sources */,
 				A96F78AE16DBBFC1000E877A /* nifti1_io.c in Sources */,
 				A96F78AF16DBBFC1000E877A /* znzlib.c in Sources */,
@@ -30413,7 +30403,6 @@
 				592CFF151212F84F00176E39 /* N2XMLRPCConnection.mm in Sources */,
 				592CFF171212F84F00176E39 /* N2WSDL.mm in Sources */,
 				592CFF191212F84F00176E39 /* N2SOAPWebServiceClient.mm in Sources */,
-				CEED77D8123038F300258D00 /* PapyVars3.c in Sources */,
 				59526E8612816FDC0016F6C0 /* WebPortalSession.mm in Sources */,
 				59526E9F1281896F0016F6C0 /* NSMutableString+N2.mm in Sources */,
 				59526F331281ACA90016F6C0 /* WebPortalDB.xcdatamodeld in Sources */,
@@ -31392,7 +31381,6 @@
 				CE111A631165CDA400EDD254 /* jcdiffct.c in Sources */,
 				CE111A641165CDC000EDD254 /* jcshuff.c in Sources */,
 				59BDEF45117DA2DF007F1F2C /* NSUserDefaultsController+OsiriX.mm in Sources */,
-				CEED77DA123038F300258D00 /* PapyVars3.c in Sources */,
 				59FB64DD1231295400EBA136 /* NSUserDefaultsController+N2.mm in Sources */,
 				CEFFFE2A1286897200D69BB8 /* djdec2k.cc in Sources */,
 				CEFFFE3D12868F5400D69BB8 /* djdijp2k.cc in Sources */,
@@ -31951,7 +31939,6 @@
 				592CFF2B1212F84F00176E39 /* N2SOAPWebServiceClient.mm in Sources */,
 				592CFF671212F91D00176E39 /* ISO8601DateFormatter.m in Sources */,
 				5963226C122544C40062066C /* N2Shell.mm in Sources */,
-				CEED77D9123038F300258D00 /* PapyVars3.c in Sources */,
 				AB02067C1250A22F000BAB5B /* N2MinMax.mm in Sources */,
 				AB02067E1250A22F000BAB5B /* N2Alignment.mm in Sources */,
 				AB0206801250A22F000BAB5B /* N2Resizer.mm in Sources */,
@@ -32088,6 +32075,16 @@
 			isa = PBXTargetDependency;
 			target = 59BDEC2C117C92B2007F1F2C /* OsiriX Launcher */;
 			targetProxy = 59BDEE6A117CB393007F1F2C /* PBXContainerItemProxy */;
+		};
+		9333112818A87D64002673A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Papyrus3;
+			targetProxy = 9333112718A87D64002673A3 /* PBXContainerItemProxy */;
+		};
+		938147E318A9C45C0098D659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Papyrus3;
+			targetProxy = 938147E218A9C45C0098D659 /* PBXContainerItemProxy */;
 		};
 		AB0F3A421046BFB9004129DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -32832,7 +32829,7 @@
 					"Deployment-Info.plist",
 				);
 				PRODUCT_NAME = OsiriX;
-				USER_HEADER_SEARCH_PATHS = "ITK180/Modules/Core/Common/include ITK180/Modules/ThirdParty/VNL/src/vxl/core ITK180/Modules/ThirdParty/VNL/src/vxl/vcl ITK180/Modules/Core/Common ITK180/Modules/Core/Mesh/include ITK180/Modules/Segmentation/RegionGrowing/include ITK180/Modules/Filtering/CurvatureFlow/include ITK180/Modules/Core/ImageFunction/include ITK180/Modules/Core/FiniteDifference/include ITK180/Modules/Filtering/ImageFilterBase/include ITK180/Modules/Segmentation/LevelSets/include ITK180/Modules/Filtering/FastMarching/include ITK180/Modules/Filtering/ImageIntensity/include ITK180/Modules/Bridge/VTK/include ITK180/Modules/Filtering/MathematicalMorphology/include ITK180/Modules/Core/Transform/include ITK180/Modules/Filtering/ImageGrid/include ITK180/Modules/Filtering/BinaryMathematicalMorphology/include ITK180/Modules/ThirdParty/NrrdIO/src/NrrdIO";
+				USER_HEADER_SEARCH_PATHS = "ITK180/Modules/ThirdParty/VNL/src/vxl/core ITK180/Modules/ThirdParty/VNL/src/vxl/vcl ITK180/Modules/Core/Common ITK180/Modules/Core/Mesh/include ITK180/Modules/Segmentation/RegionGrowing/include ITK180/Modules/Filtering/CurvatureFlow/include ITK180/Modules/Core/ImageFunction/include ITK180/Modules/Core/FiniteDifference/include ITK180/Modules/Filtering/ImageFilterBase/include ITK180/Modules/Segmentation/LevelSets/include ITK180/Modules/Filtering/FastMarching/include ITK180/Modules/Filtering/ImageIntensity/include ITK180/Modules/Bridge/VTK/include ITK180/Modules/Filtering/MathematicalMorphology/include ITK180/Modules/Core/Transform/include ITK180/Modules/Filtering/ImageGrid/include ITK180/Modules/Filtering/BinaryMathematicalMorphology/include ITK180/Modules/ThirdParty/NrrdIO/src/NrrdIO";
 			};
 			name = Development;
 		};
@@ -33227,6 +33224,11 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREFIX_HEADER = Decompres_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					PAPY3_VAR,
+					unix,
+					__STDC__,
+				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -33383,7 +33385,7 @@
 				PRODUCT_NAME = OsiriX;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = debugging;
-				USER_HEADER_SEARCH_PATHS = "ITK180/Modules/Core/Common/include ITK180/Modules/ThirdParty/VNL/src/vxl/core ITK180/Modules/ThirdParty/VNL/src/vxl/vcl ITK180/Modules/Core/Common ITK180/Modules/Core/Mesh/include ITK180/Modules/Segmentation/RegionGrowing/include ITK180/Modules/Filtering/CurvatureFlow/include ITK180/Modules/Core/ImageFunction/include ITK180/Modules/Core/FiniteDifference/include ITK180/Modules/Filtering/ImageFilterBase/include ITK180/Modules/Segmentation/LevelSets/include ITK180/Modules/Filtering/FastMarching/include ITK180/Modules/Filtering/ImageIntensity/include ITK180/Modules/Bridge/VTK/include ITK180/Modules/Filtering/MathematicalMorphology/include ITK180/Modules/Core/Transform/include ITK180/Modules/Filtering/ImageGrid/include ITK180/Modules/Filtering/BinaryMathematicalMorphology/include ITK180/Modules/ThirdParty/NrrdIO/src/NrrdIO";
+				USER_HEADER_SEARCH_PATHS = "ITK180/Modules/ThirdParty/VNL/src/vxl/core ITK180/Modules/ThirdParty/VNL/src/vxl/vcl ITK180/Modules/Core/Common ITK180/Modules/Core/Mesh/include ITK180/Modules/Segmentation/RegionGrowing/include ITK180/Modules/Filtering/CurvatureFlow/include ITK180/Modules/Core/ImageFunction/include ITK180/Modules/Core/FiniteDifference/include ITK180/Modules/Filtering/ImageFilterBase/include ITK180/Modules/Segmentation/LevelSets/include ITK180/Modules/Filtering/FastMarching/include ITK180/Modules/Filtering/ImageIntensity/include ITK180/Modules/Bridge/VTK/include ITK180/Modules/Filtering/MathematicalMorphology/include ITK180/Modules/Core/Transform/include ITK180/Modules/Filtering/ImageGrid/include ITK180/Modules/Filtering/BinaryMathematicalMorphology/include ITK180/Modules/ThirdParty/NrrdIO/src/NrrdIO";
 			};
 			name = "Deployment 32-bit";
 		};
@@ -33515,6 +33517,11 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREFIX_HEADER = Decompres_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					PAPY3_VAR,
+					unix,
+					__STDC__,
+				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -33679,7 +33686,7 @@
 				PRODUCT_NAME = OsiriX;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = debugging;
-				USER_HEADER_SEARCH_PATHS = "ITK180/Modules/Core/Common/include ITK180/Modules/ThirdParty/VNL/src/vxl/core ITK180/Modules/ThirdParty/VNL/src/vxl/vcl ITK180/Modules/Core/Common ITK180/Modules/Core/Mesh/include ITK180/Modules/Segmentation/RegionGrowing/include ITK180/Modules/Filtering/CurvatureFlow/include ITK180/Modules/Core/ImageFunction/include ITK180/Modules/Core/FiniteDifference/include ITK180/Modules/Filtering/ImageFilterBase/include ITK180/Modules/Segmentation/LevelSets/include ITK180/Modules/Filtering/FastMarching/include ITK180/Modules/Filtering/ImageIntensity/include ITK180/Modules/Bridge/VTK/include ITK180/Modules/Filtering/MathematicalMorphology/include ITK180/Modules/Core/Transform/include ITK180/Modules/Filtering/ImageGrid/include ITK180/Modules/Filtering/BinaryMathematicalMorphology/include ITK180/Modules/ThirdParty/NrrdIO/src/NrrdIO";
+				USER_HEADER_SEARCH_PATHS = "ITK180/Modules/ThirdParty/VNL/src/vxl/core ITK180/Modules/ThirdParty/VNL/src/vxl/vcl ITK180/Modules/Core/Common ITK180/Modules/Core/Mesh/include ITK180/Modules/Segmentation/RegionGrowing/include ITK180/Modules/Filtering/CurvatureFlow/include ITK180/Modules/Core/ImageFunction/include ITK180/Modules/Core/FiniteDifference/include ITK180/Modules/Filtering/ImageFilterBase/include ITK180/Modules/Segmentation/LevelSets/include ITK180/Modules/Filtering/FastMarching/include ITK180/Modules/Filtering/ImageIntensity/include ITK180/Modules/Bridge/VTK/include ITK180/Modules/Filtering/MathematicalMorphology/include ITK180/Modules/Core/Transform/include ITK180/Modules/Filtering/ImageGrid/include ITK180/Modules/Filtering/BinaryMathematicalMorphology/include ITK180/Modules/ThirdParty/NrrdIO/src/NrrdIO";
 			};
 			name = "Deployment 64-bit";
 		};
@@ -33791,6 +33798,11 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREFIX_HEADER = Decompres_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					PAPY3_VAR,
+					unix,
+					__STDC__,
+				);
 				GCC_UNROLL_LOOPS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				LIBRARY_SEARCH_PATHS = (

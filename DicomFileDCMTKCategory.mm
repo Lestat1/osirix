@@ -14,7 +14,7 @@
 
 #import "DicomFileDCMTKCategory.h"
 #import <OsiriX/DCMAbstractSyntaxUID.h>
-#import "Papyrus3/Papyrus3.h"
+#import "Papyrus3.h"
 #import "DICOMToNSString.h"
 #import "MutableArrayCategory.h"
 #import "DicomStudy.h"

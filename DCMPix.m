@@ -16,8 +16,8 @@
 #import "DicomImage.h"
 #import "DicomSeries.h"
 #import "DicomStudy.h"
-#import "Papyrus3/Papyrus3.h"
-#import "Papyrus3/PapyGlobalVar3.h"
+#import "Papyrus3.h"
+#import "PapyGlobalVar3.h"
 #import <AVFoundation/AVFoundation.h>
 #import <OsiriX/DCM.h>
 #import <OsiriX/DCMAbstractSyntaxUID.h>
@@ -6429,7 +6429,7 @@ void erase_outside_circle(char *buf, int width, int height, int cx, int cy, int 
 	[PapyrusLock unlock];
 }
 
-- (void)papyLoadCodeSequenceMacro:(DCMCodeSequenceMacro*)csm from:(papObject*)object
+- (void)papyLoadCodeSequenceMacro:(DCMCodeSequenceMacro*)csm from:(Object*)object
 {
     UValue_T* val;
     PapyULong nbVal;
@@ -6485,7 +6485,7 @@ void erase_outside_circle(char *buf, int width, int height, int cx, int cy, int 
     }
 }
 
-- (void)papyLoadSOPInstanceReferenceMacro:(DCMSOPInstanceReferenceMacro*)sirm from:(papObject*)object
+- (void)papyLoadSOPInstanceReferenceMacro:(DCMSOPInstanceReferenceMacro*)sirm from:(Object*)object
 {
     UValue_T* val;
     PapyULong nbVal;
@@ -7698,7 +7698,7 @@ void erase_outside_circle(char *buf, int width, int height, int cx, int cy, int 
 //                                        yy = 0;
 //                                    xx = xx / yy; // Test the divide by zero exception
                                     
-                                    oImage = (short*) Papy3GetPixelData (fileNb, imageNb, theGroupP, gUseJPEGColorSpace, &planarConf);
+                                    oImage = (short*) Papy3GetPixelData (fileNb, imageNb, theGroupP, gUseJPEGColorSpace);
                                 }
                                 
 //                                signal( SIGFPE, SIG_DFL);    /* Restore default action */
